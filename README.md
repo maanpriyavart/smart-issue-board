@@ -1,25 +1,14 @@
-# Smart Issue Board
+## Why React
+I chose React because it allows fast UI development and integrates easily with Firebase.
 
-This project is built as part of an internship assignment.
+## Firestore Structure
+Issues are stored in a single collection with fields like title, description, priority, status, createdBy, and timestamps.
 
-## Tech Stack
-- React (Vite)
-- Firebase Authentication
-- Firebase Firestore
-- Vercel (Deployment)
+## Similar Issue Handling
+A keyword-based comparison is used to detect similar issues during creation.
 
-## Features
-- User Signup and Login using Firebase Auth
-- Create issues with title, description, priority, and status
-- Similar issue detection while creating issues
-- Issue listing with basic filtering
-- Status validation for issue workflow
+## Challenges
+Understanding Firebase modular SDK and handling async Firestore operations.
 
-## Setup Instructions
-1. Clone the repository
-2. Run `npm install`
-3. Create a `.env` file with Firebase configuration
-4. Run `npm run dev`
-
-## Notes
-- Environment variables are not committed for security reasons
+## Improvements
+Role-based access, comments on issues, better similarity detection.
